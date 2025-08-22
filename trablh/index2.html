@@ -8,18 +8,27 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h3 id="frase" class="texto">Bem vindo</h3>
+ 
+  <h2 id="frase" class="texto">Bem vindo</h2>
+
+  <h3>Digite suas credenciais embaixo</h3>
   
   <div class="caixa">
     
   <input type="text" id="loguin" placeholder="digite seu loguin">
   
-  <input type="text" id="senha" placeholder="digite sua senha">
+  <input type="password" id="senha" placeholder="digite sua senha">
   
   <button onclick="verificar()">entrar</button>
   
   </div>
-  
+
+  <input type="checkbox" onclick="mostraSenha()" class="check">Mostrar senha 
+
+  <p> Ana - 123</p>
+  <p> Bruna - 456</p>
+  <p> Carol - 789</p>
+
   <script src="script.js"></script>
 </body>
 </html>
